@@ -147,3 +147,28 @@ body {
   border-top: 1px solid #1f293720;
   padding: 16px 0;
 }
+
+/* Pills pentru controllerele din chart – să arate ca butoanele din header */
+.pill {
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 12px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+  background: #fff;
+  color: #0b2a78;
+}
+.dark .pill { background: #e2e8f0; color: #0b2a78; }
+
+.pill.active {
+  background: #0b74ff;
+  color: #fff;
+}
+.pill:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+/* mic helper pt text secundar */
+.muted { color: var(--muted); }

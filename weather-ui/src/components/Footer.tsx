@@ -1,1 +1,7 @@
-export function Footer(){ return <footer className="footer">© 2025 WeatherNow. All rights reserved.</footer> }
+export function Footer() {
+  return (
+    <footer className="py-8 text-center text-sm text-white/60">
+      © {new Date().getFullYear()} WeatherNow. All rights reserved.
+    </footer>
+  );
+}
